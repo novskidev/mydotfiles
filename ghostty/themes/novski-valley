@@ -1,0 +1,43 @@
+# ANSI 0 / 8: black and bright black
+palette = 0=#2E3B2E
+palette = 8=#4C5F4C
+
+# ANSI 1 / 9: red and bright red
+palette = 1=#A3D9A5
+palette = 9=#BEE6C1
+
+# ANSI 2 / 10: green and bright green
+palette = 2=#5FAD56
+palette = 10=#7BC96F
+
+# ANSI 3 / 11: yellow and bright yellow
+palette = 3=#5FAD56
+palette = 11=#D6F5A3
+
+# ANSI 4 / 12: blue and bright blue
+palette = 4=#7FB069
+palette = 12=#A8D5BA
+
+# ANSI 5 / 13: magenta and bright magenta
+palette = 5=#9BCF9B
+palette = 13=#CBE6C9
+
+# ANSI 6 / 14: cyan and bright cyan
+palette = 6=#6FAF8F
+palette = 14=#9FD8C3
+
+# ANSI 7 / 15: white and bright white
+palette = 7=#DFF5E1
+palette = 15=#F0FFF4
+
+# Cursor colors
+cursor-color = #5FAD56
+cursor-text = #0F1A0F
+
+# Base terminal colors
+background = #272727
+foreground = #E8F5E9
+
+# Selection colors
+selection-background = #CFE8CF
+selection-foreground = #1F2A1F
