@@ -1,14 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-    "blush": "#DA627D",
-    "plum": "#9A348E",
-    "salmon": "#FCA17D",
-    "sky": "#86BBD8",
-    "tan": "#CC3802",
-    "teal": "#047E84",
-    "teal_blue": "#33658A",
-    "white": "#FFFFFF"
+    "background": "#1F2A1F",
+    "white": "#E8F5E9",
+    "plum": "#2E3B2E",
+    "blush": "#4C5F4C",
+    "salmon": "#5FAD56",
+    "sky": "#6FAF8F",
+    "tan": "#7FB069",
+    "teal": "#A3D9A5",
+    "teal_blue": "#CFE8CF"
   },
   "blocks": [
     {
@@ -21,7 +22,7 @@
           },
           "leading_diamond": "\ue0b6",
           "template": "{{ if .Env.PNPPSHOST }} \uf8c5 {{ .Env.PNPPSHOST }} {{ end }}",
-          "foreground": "p:white",
+          "foreground": "p:background",
           "background": "p:tan",
           "type": "text",
           "style": "diamond"
@@ -31,7 +32,7 @@
             "cache_duration": "none"
           },
           "template": "{{ if .Env.PNPPSSITE }} \uf2dd {{ .Env.PNPPSSITE }}{{ end }}",
-          "foreground": "p:white",
+          "foreground": "p:background",
           "powerline_symbol": "\ue0b0",
           "background": "p:teal",
           "type": "text",
@@ -43,7 +44,7 @@
           },
           "trailing_diamond": "\ue0b4",
           "template": "{{ if .Env.PNPPSSITE }} {{ end }}",
-          "foreground": "p:white",
+          "foreground": "p:background",
           "background": "p:teal",
           "type": "text",
           "style": "diamond"
@@ -86,7 +87,7 @@
             "fetch_upstream_icon": true
           },
           "template": " ➜ ({{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }}) ",
-          "foreground": "p:white",
+          "foreground": "p:background",
           "powerline_symbol": "\ue0b0",
           "background": "p:salmon",
           "type": "git",
@@ -97,7 +98,7 @@
             "cache_duration": "none"
           },
           "template": " \ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
-          "foreground": "p:white",
+          "foreground": "p:background",
           "powerline_symbol": "\ue0b0",
           "background": "p:sky",
           "type": "node",
@@ -110,7 +111,7 @@
           },
           "trailing_diamond": "\ue0b0",
           "template": " ♥ {{ .CurrentDate | date .Format }} ",
-          "foreground": "p:white",
+          "foreground": "p:background",
           "background": "p:teal_blue",
           "type": "time",
           "style": "diamond"
